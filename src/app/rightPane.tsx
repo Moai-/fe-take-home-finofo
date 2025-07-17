@@ -18,7 +18,7 @@ export const RightPane: React.FC = () => {
   const { jar, fruitMap } = useFruitContext();
   const svgRef = useRef<SVGSVGElement | null>(null);
 
-  const data: ChartDatum[] = useMemo(() => {
+  const data: Array<ChartDatum> = useMemo(() => {
     const tally = new Map<number, ChartDatum>();
     jar.forEach((id) => {
       const fruit = fruitMap[id];
