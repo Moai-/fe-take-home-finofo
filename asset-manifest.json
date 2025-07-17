@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fe-take-home-finofo/static/css/main.30ca2a24.css",
-    "main.js": "/fe-take-home-finofo/static/js/main.2c700c6d.js",
+    "main.js": "/fe-take-home-finofo/static/js/main.93d67da9.js",
     "index.html": "/fe-take-home-finofo/index.html",
     "main.30ca2a24.css.map": "/fe-take-home-finofo/static/css/main.30ca2a24.css.map",
-    "main.2c700c6d.js.map": "/fe-take-home-finofo/static/js/main.2c700c6d.js.map"
+    "main.93d67da9.js.map": "/fe-take-home-finofo/static/js/main.93d67da9.js.map"
   },
   "entrypoints": [
     "static/css/main.30ca2a24.css",
-    "static/js/main.2c700c6d.js"
+    "static/js/main.93d67da9.js"
   ]
 }
