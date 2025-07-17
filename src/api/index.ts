@@ -2,11 +2,7 @@ import { Fruit } from "../types";
 
 export const getFruit: () => Promise<Array<Fruit>> = () => new Promise<Array<Fruit>>(async (resolve, reject) => {
 
-  const fruitData = await fetch('https://fruity-proxy.vercel.app/api/fruits', {
-    headers: {
-      'x-api-key': 'fruit-api-challenge-2025'
-    }
-  });
+  const fruitData = await fetch('https://fruits-proxy.sv-gmyria.workers.dev');
   if (fruitData.ok) {
     resolve(await fruitData.json());
   } else {
